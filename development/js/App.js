@@ -1,5 +1,8 @@
 import React from "react"
 import ReactDOM from "react-dom";
+import Start from "./Start"
 
-console.log("działa");
-ReactDOM.render(<h1>Kupa</h1>, document.getElementById("app"));
+const App = () => <Start />
+
+
+ReactDOM.render(<App />, document.getElementById("app"));
