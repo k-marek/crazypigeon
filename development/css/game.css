@@ -1,0 +1,5 @@
+div.game-container {
+  background-image: url(./../images/game.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

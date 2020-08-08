@@ -1,0 +1,5 @@
+div.start-container {
+  background-image: url(./../images/start.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}

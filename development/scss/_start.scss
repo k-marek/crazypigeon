@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Shadows Into Light", cursive, "Open Sans";
+}
+.start-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #96c2c4;
+  border-radius: 50%;
+  background-color: rgba(150, 194, 196, 0.8);
+  box-shadow: 3px 3px 5px #96c2c4;
+  height: 730px;
+  width: 730px;
+
+  .start-title {
+    font-size: 120px;
+    color: #4d3f4d;
+  }
+
+  .start-btn {
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: rgba(42, 88, 68, 1);
+    color: #def2f1;
+    font-family: "Shadows Into Light", cursive, "Open Sans";
+    font-size: 60px;
+    margin-top: 40px;
+    box-shadow: 3px 3px 5px #2a5844;
+  }
+}
